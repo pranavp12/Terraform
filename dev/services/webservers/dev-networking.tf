@@ -1,6 +1,3 @@
-resource "random_id" "random_id_prefix" {
-  byte_length = 2
-}
 /*====
 Variables used across all modules
 ======*/
