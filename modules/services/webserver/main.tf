@@ -1,11 +1,11 @@
 provider "aws" {
-  region = "us-east-2"
+  region = "us-east-1"
 }
 
 data "aws_availability_zones" "all" {}
 
 resource "aws_launch_configuration" "asg-launch-config-sample" {
-  image_id          = "ami-07ebfd5b3428b6f4d"
+  image_id          = "ami-0dc2d3e4c0f9ebd18"
   instance_type = var.instance_type
   security_groups = [aws_security_group.busybox.id]
   
