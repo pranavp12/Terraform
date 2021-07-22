@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 module "webservers" {
-  source = "../../../modules/services/webservers"
+  source = "../../../modules/services/webserver"
   cluster_name = "webservers-dev"
   instance_type = "t2.nano"
   min_size      = 1
   max_size      = 5
-  desired_capacity  = 3
+  desired_capacity  = 1
 }    
