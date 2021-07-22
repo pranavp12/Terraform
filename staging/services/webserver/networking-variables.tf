@@ -1,6 +1,6 @@
 variable "region" {
-  description = "us-east-2"
-  default = "us-east-2"
+  description = "us-east-1"
+  default = "us-east-1"
 }
 
 variable "environment" {
