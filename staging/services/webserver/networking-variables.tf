@@ -4,7 +4,7 @@ variable "region" {
 }
 
 variable "environment" {
-  description = "The Deployment environment"
+  description = "The Staging environment"
   default = "terraform-aws-vpc-staging"
 }
 
