@@ -5,7 +5,7 @@ variable "region" {
 
 variable "environment" {
   description = "The Deployment environment"
-  default = "terraform-aws-vpc-dev"
+  default = "terraform-aws-vpc-staging"
 }
 
 //Networking
